@@ -4,10 +4,6 @@ platform :ios, '8.0'
 
 target 'LZLogining_Example' do
   pod 'LZLogining', :path => '../'
+  pod 'TRUNetworking', :path => '../../TRUNetworking'
 
-  target 'LZLogining_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
-  end
 end

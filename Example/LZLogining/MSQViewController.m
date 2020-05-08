@@ -7,6 +7,8 @@
 //
 
 #import "MSQViewController.h"
+#import "LRUNetworking.h"
+#import "LZLoging.h"
 
 @interface MSQViewController ()
 
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [LRUNetworking printTRUNetAction];
+    [LZLoging printAction];
 }
 
 - (void)didReceiveMemoryWarning

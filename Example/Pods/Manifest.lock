@@ -1,0 +1,22 @@
+PODS:
+  - LZLogining (0.1.0):
+    - TRUNetworking
+  - TRUNetworking (1.2.0)
+
+DEPENDENCIES:
+  - LZLogining (from `../`)
+  - TRUNetworking (from `../../TRUNetworking`)
+
+EXTERNAL SOURCES:
+  LZLogining:
+    :path: "../"
+  TRUNetworking:
+    :path: "../../TRUNetworking"
+
+SPEC CHECKSUMS:
+  LZLogining: cdabb890225b40c2aeb3ac83b97ef47ae85c2ebc
+  TRUNetworking: 8d39bfc43454200bb94f58fdeab1c7331971cbe9
+
+PODFILE CHECKSUM: 505e3e2aaf6eb66fec24daeda392ac477a6932b1
+
+COCOAPODS: 1.9.1
